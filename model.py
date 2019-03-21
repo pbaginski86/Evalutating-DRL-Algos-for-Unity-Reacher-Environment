@@ -69,10 +69,8 @@ class SoftQNetwork(nn.Module):
 
         
 class PolicyNetwork(nn.Module):
-    def __init__(self, num_inputs, num_actions, hidden_size, device, init_w=3e-3, log_std_min=-20, log_std_max=2):
+    def __init__(self, num_inputs, num_actions, hidden_size, init_w=3e-3, log_std_min=-20, log_std_max=2):
         super(PolicyNetwork, self).__init__()
-        
-        self.device = device
         
         self.log_std_min = log_std_min
         self.log_std_max = log_std_max
