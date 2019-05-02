@@ -80,7 +80,7 @@ pip install .
 
 #### Cloning the repository
 
-1. `git clone https://github.com/JoshVarty/Reacher.git`
+1. `Clone the repository`
 
 2. `cd Reacher`
 
